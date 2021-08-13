@@ -12,7 +12,7 @@ function Header() {
         <div className='header'>
             <Link to='/'>
                 <img
-                    className="header__icon,"
+                    className="header__icon, photo"
                     src={vlage}
                     alt="THE VLAGE"
                 />
