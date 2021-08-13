@@ -11,8 +11,8 @@ function Header() {
     return (
         <div className='header'>
             <Link to='/'>
-                <img className="photo"
-                    className="header__icon"
+                <img
+                    className="header__icon,"
                     src={vlage}
                     alt="THE VLAGE"
                 />
