@@ -1,47 +1,48 @@
-.search {
-	position: absolute;
-	top: 35px;
-	left: 25%;
-	width: 100vw;
+.search{
+    /* background: pink; */
+    position: absolute;
+    top:36px;
+    right: 0;
+    z-index: 3;
+    
+    translate: (-50%,-50%);
+}
+.search form{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+.search h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding:0 15px;
+}
+.search h2{
+    border-top:1px solid #ff4c6d; 
+}
+.search form input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding:0 15px;
+}
+.search form button{
+    background: #ff4c6d;
+    color: white;
+    border-radius: 0;
+    transition: all 0.37s ease;
+}
+.search form button:hover{
+    color: #ff4c6d;
+    transition: all 0.37s ease;
 }
 
-.search > h2 {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 559px;
-	padding: 10px;
-	background-color: white;
-	position: absolute;
-	left: 0;
-	top: 380px;
-}
-
-.search > input {
-	width: 539px;
-	padding: 20px;
-	position: absolute;
-	left: 0;
-	height: 30px;
-	top: 420px;
-	border: none;
-}
-
-.search > input:focus {
-	outline-width: 0;
-}
-
-.search > button {
-	position: absolute;
-	left: 0;
-	top: 480px;
-	text-transform: inherit !important;
-	background-color: hsl(212, 97%, 36%);
-	color: white;
-	width: 579px;
-}
-
-.search > button:hover {
-	background-color: white;
-	color: hsl(212, 97%, 36%);
+@media screen and (max-width:590px){
+    .search{
+        display: none;
+    }
 }

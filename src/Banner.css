@@ -1,45 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.banner-container {
+  background: url("https://a0.muscache.com/im/pictures/a7823da3-6eb5-4389-a184-f9183af83be3.jpg")
+    center/cover no-repeat;
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
 .banner {
-	background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg")
-		center center;
-	height: 50vh;
-	position: relative;
+  height: 100%;
+  width: 90rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background: pink; */
 }
-
-.banner__info {
-	background-color: rgba(19, 13, 13, 0.486);
-	color: white;
-	padding-top: 14vh;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 40px;
-	width: 300px;
+.banner-info {
+  color: white;
+  /* padding: 0 3.4 vmin; */
+  padding: 60px 6vmin 60px 5.4vmin;
+  font-family: "Poppins", sans-serif;
+    /* background: purple; */
 }
-
-.banner__search {
-	display: flex;
-	flex-direction: column;
+.banner-info h2 {
+  padding: 4px 0;
 }
-
-.banner__searchButton {
-	background-color: white !important;
-	font-weight: 900 !important;
-	text-transform: inherit !important;
-	color: hsl(212, 97%, 36%) !important;
+.banner-info button {
+  color: white;
+  background: #3f67ec;
+  margin-top: 6px;
+  text-transform: inherit;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
 }
-
-.banner__info > button {
-	background-color: hsl(212, 97%, 36%);
-	color: white;
-	text-transform: inherit;
-	margin-top: 20px;
-	font-weight: 600;
-}
-
-.banner__info > button:hover {
-	background-color: white;
-	color: hsl(212, 97%, 36%);
-}
-
-.banner__info > h5 {
-	margin-top: 10px;
+.banner-info button:hover {
+  border: 1px solid white;
+  color: #3f67ec;
+  background: white;
+  transition: all 0.3s ease;
 }
