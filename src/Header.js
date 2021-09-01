@@ -53,7 +53,7 @@ function Header() {
                             onClose={handleClose}
                             TransitionComponent={Fade}
                         >
-                            <MenuItem onClick={handleClose}>Profile</MenuItem>
+                            <Link to="/SingleHotel" className="button4"><MenuItem  onClick={handleClose}>Profile</MenuItem></Link>
                             <MenuItem onClick={handleClose}>My account</MenuItem>
                             <MenuItem onClick={handleClose}>Logout</MenuItem>
                         </Menu>

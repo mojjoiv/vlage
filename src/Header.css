@@ -64,6 +64,11 @@
   transition: all 0.3s ease;
 }
 
+.button4 {background-color: #e7e7e7; 
+  color: black;
+  text-decoration: none;
+} /* Gray */
+
 .search-btn:hover{
   color: #3f67ec;
   background: white;
@@ -90,6 +95,7 @@
     height: 80px;
   }
 }
+
 @media screen and (max-width: 620px) {
   .header-center input {
     width: 30vw;
