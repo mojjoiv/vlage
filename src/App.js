@@ -5,6 +5,8 @@ import Header from './Header';
 import Footer from './Footer';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import SearchPage from './SearchPage';
+import SingleHotel from './SingleHotel';
+import dateFns from 'date-fns'
 
 function App(){
     return (
@@ -21,6 +23,9 @@ function App(){
 
               <Route path="/">
                   <Home/>
+              </Route>
+              <Route path="/SingleHotel">
+                  <SingleHotel/>
               </Route>
               
             </Switch>

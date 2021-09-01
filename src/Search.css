@@ -20,7 +20,7 @@
     padding:0 15px;
 }
 .search h2{
-    border-top:1px solid #ff4c6d; 
+    border-top:1px solid #3f67ec; 
 }
 .search form input{
     width: 100%;
@@ -31,13 +31,13 @@
     padding:0 15px;
 }
 .search form button{
-    background: #ff4c6d;
+    background: #3f67ec;
     color: white;
     border-radius: 0;
     transition: all 0.37s ease;
 }
 .search form button:hover{
-    color: #ff4c6d;
+    color: #3f67ec;
     transition: all 0.37s ease;
 }
 
