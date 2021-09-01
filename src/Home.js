@@ -49,17 +49,17 @@ function Home() {
             <Card src={"https://a0.muscache.com/im/pictures/c8653740-f58b-4836-8f2a-4021cf8f658f.jpg"}
                   title={"2 Bedroom Apartment"}
                   desc={"Get a luxuty flat with all facilities in Bangkok"}
-                  price={"£60 / night"}
+                  price={"kshs6000/ night"}
             />
             <Card src={"https://a0.muscache.com/im/pictures/f4a0223d-9157-4797-8ea7-9f7ed39bb00c.jpg"}
                   title={"1 Bedroom Hotel"}
                   desc={"Get free breakfast and cool view from balcany"}
-                  price={"£30 / night"}
+                  price={"kshs3000/ night"}
             />
             <Card src={"https://a0.muscache.com/im/pictures/297adf2c-9e07-47ea-8e5b-037e613a9779.jpg"}
                   title={"2 Bedroom Apartment"}
                   desc={"Fully facilated hotel in London"}
-                  price={"£50 / night"}
+                  price={"kshs5000/ night"}
             />
         </div>
 
