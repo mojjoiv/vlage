@@ -5,7 +5,7 @@ function Footer() {
     var currentYear = new Date().getFullYear();
     return (
         <div className="footer">
-            <p>© {currentYear}2021 The Vlage! rights reserved</p>
+            <p>© {currentYear} The Vlage! rights reserved</p>
             <p>Privary · Terms · Sitemap · Company Details</p>
         </div> 
     )
