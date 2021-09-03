@@ -55,7 +55,7 @@ function Header() {
                         >
                             <Link to="/Profile" className="button4"><MenuItem  onClick={handleClose}>Profile</MenuItem></Link>
                             <MenuItem onClick={handleClose}>My account</MenuItem>
-                            <MenuItem onClick={handleClose}>Logout</MenuItem>
+                            <Link  to ="/" className="button4" ><MenuItem onClick={handleClose}>Logout</MenuItem></Link>
                         </Menu>
                </div>
             </div>

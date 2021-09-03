@@ -3,20 +3,20 @@ import './SearchPage.css';
 import { Button } from "@material-ui/core";
 import SearchResult from './SearchResult';
 import { makeStyles } from '@material-ui/core/styles';
-import {Link} from 'react-router-dom';
-import Rating from '@material-ui/lab/Rating';
-import Box from '@material-ui/core/Box';
+// import {Link} from 'react-router-dom';
+// import Rating from '@material-ui/lab/Rating';
+// import Box from '@material-ui/core/Box';
 // import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import Divider from '@material-ui/core/Divider';
-import Typography from '@material-ui/core/Typography';
+// import Card from '@material-ui/core/Card';
+// import CardActionArea from '@material-ui/core/CardActionArea';
+// import CardActions from '@material-ui/core/CardActions';
+// import CardContent from '@material-ui/core/CardContent';
+// import CardMedia from '@material-ui/core/CardMedia';
+// import List from '@material-ui/core/List';
+// import ListItem from '@material-ui/core/ListItem';
+// import ListItemText from '@material-ui/core/ListItemText';
+// import Divider from '@material-ui/core/Divider';
+// import Typography from '@material-ui/core/Typography';
 
 const labels = {
     0.5: 'Useless',
@@ -40,8 +40,8 @@ const labels = {
         maxWidth: 345,
       media: {
         height: 140,},
-        width: '100%',
-    maxWidth: 360,
+        
+    // maxWidth: 360,
     },
 
   });

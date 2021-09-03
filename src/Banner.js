@@ -2,7 +2,7 @@ import React from "react";
 import "./Banner.css";
 import { Button } from "@material-ui/core";
 import {useHistory} from "react-router-dom";
-import Box from '@material-ui/core/Box';
+// import Box from '@material-ui/core/Box';
 import SimpleModal from './SimpleModal'
 
 function Banner() {

@@ -12,15 +12,16 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import vlage from './assets/img/vlage.png'
 // import Box from '@material-ui/core/Box';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
+// function Copyright() {
+//   return (
+//     <Typography variant="body2" color="textSecondary" align="center">
     
-    </Typography>
-  );
-}
+//     </Typography>
+//   );
+// }
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -55,9 +56,11 @@ export default function SignIn() {
       <Grid item xs={false} sm={4} md={7} className={classes.image} />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
-          <Avatar className={classes.avatar}>
-            <LockOutlinedIcon />
-          </Avatar>
+        <img
+                    className="header__icon, photo"
+                    src={vlage}
+                    alt="THE VLAGE"
+                />
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>

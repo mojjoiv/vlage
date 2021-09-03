@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import SearchPage from './SearchPage';
 import SingleHotel from './SingleHotel';
 import Profile from './Profile';
-import SignIn from  './SignIn'; 
+// import SignIn from  './SignIn'; 
 
 function App(){
     return (
@@ -27,7 +27,7 @@ function App(){
               <Route path="/">
                   <Home/>
               </Route>
-              <Route path="/SingleHotel">
+              <Route path="/single-room">
                   <SingleHotel/>
               </Route>
               
