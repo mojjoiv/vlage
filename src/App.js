@@ -6,6 +6,8 @@ import Footer from './Footer';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import SearchPage from './SearchPage';
 import SingleHotel from './SingleHotel';
+import Profile from './Profile';
+import SignIn from  './SignIn'; 
 
 function App(){
     return (
@@ -15,9 +17,11 @@ function App(){
         <Header/>
 
             <Switch>
-            
               <Route path="/Search">
                   <SearchPage/>
+              </Route>
+              <Route path="/Profile">
+                  <Profile/>
               </Route>
 
               <Route path="/">
