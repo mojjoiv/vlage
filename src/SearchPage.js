@@ -3,6 +3,7 @@ import './SearchPage.css';
 import { Button } from "@material-ui/core";
 import SearchResult from './SearchResult';
 import { makeStyles } from '@material-ui/core/styles';
+import {Link} from 'react-router-dom';
 // import {Link} from 'react-router-dom';
 // import Rating from '@material-ui/lab/Rating';
 // import Box from '@material-ui/core/Box';
@@ -146,12 +147,14 @@ function SearchPage() {
 
                 <div>
                  
+                 <Link to="/SingleHotel" className="button4">
                  <SearchResult
                      img="https://a0.muscache.com/im/pictures/f34ff263-bf04-4c6c-9ac4-fd99f40f13b3.jpg"
                      location="Private room in center of Nairobi"
                      title="Test House"
                      price="kshs3000 / night"
                  />
+                 </Link>
                  
                  </div>
 

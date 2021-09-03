@@ -91,7 +91,7 @@ function SearchResult({
                     <h4>{title}</h4>
                     </Typography>
                     </ListItem>
-                            <h3 className="searchResult-heart">{price}</h3>
+                            <h4 className="searchResult-heart">{price}</h4>
                         </div>
                         
                     <p>{description}</p>
