@@ -6,10 +6,17 @@
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.60",
+    "chartist": "0.10.1",
     "chokidar": "^3.5.2",
+    "classnames": "2.3.1",
     "cra-template": "1.0.3",
     "date-fns": "^2.23.0",
+    "history": "5.0.0",
+    "moment": "^2.29.1",
+    "perfect-scrollbar": "1.5.1",
+    "prop-types": "15.7.2",
     "react": "^16.13.1",
+    "react-chartist": "0.14.4",
     "react-date-range": "^1.0.3",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
@@ -17,7 +24,8 @@
     "react-scripts": "^4.0.3",
     "react-swipeable-views": "^0.14.0",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.3"
+    "semantic-ui-react": "^2.0.3",
+    "sf": "^0.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

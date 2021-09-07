@@ -23,13 +23,14 @@ function App(){
               <Route path="/Profile">
                   <Profile/>
               </Route>
+              <Route path="/single-room">
+                  <SingleHotel/>
+              </Route>
 
               <Route path="/">
                   <Home/>
               </Route>
-              <Route path="/SingleHotel">
-                  <SingleHotel/>
-              </Route>
+              
               
             </Switch>
 

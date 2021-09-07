@@ -147,7 +147,7 @@ function SearchPage() {
 
                 <div>
                  
-                 <Link to="/SingleHotel" className="button4">
+                 <Link to="/single-room" className="button4">
                  <SearchResult
                      img="https://a0.muscache.com/im/pictures/f34ff263-bf04-4c6c-9ac4-fd99f40f13b3.jpg"
                      location="Private room in center of Nairobi"
